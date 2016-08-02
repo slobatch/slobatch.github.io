@@ -1,22 +1,14 @@
 /* Homepage Styles */
 /* ----------------------------------------------------------*/
 
-.main-back{
-  background-color: $bg-color;
-}
-
 .main {
+  background-color: $bg-color;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 140px;
 }
 
-.headshot-little {
-  margin-top: -70px;
-  max-width: 50%;
-  padding: 10px;
-}
 
-.headshot-big {
+.headshot{
   padding-top: 20px;
 }
 
