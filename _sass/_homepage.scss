@@ -22,7 +22,7 @@
 }
 
 .main-text-box h1 {
-  color: #333333;
+  color: $text-color;
   font-size: 50px;
   letter-spacing: -2px;
   font-family: 'Roboto Slab', serif;
@@ -34,7 +34,7 @@
   font-family: 'Roboto Slab', serif;
   font-weight: thin;
   font-size: 36px;
-  color: #333333;
+  color: $text-color;
 
 }
 
@@ -42,7 +42,7 @@
   font-family: 'Roboto Slab', serif;
   font-size: 17px;
   font-weight: 500;
-  color: #333333;
+  color: $text-color;
   padding-top: 10px;
   letter-spacing: 0.2px
 }
@@ -51,7 +51,7 @@
   font-family: 'Roboto slab',serif;
   font-size: 17px;
   font-weight: 300;
-  color: #333333;
+  color: $text-color;
   padding-top: 10px;
   letter-spacing: 0.2px;
 }

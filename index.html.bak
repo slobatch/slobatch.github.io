@@ -29,6 +29,13 @@ active_nav: home
             <p><i class="fa fa-map-marker fa-fw"></i><span class="icon-spacer"></span><a href="https://www.google.com/maps/place/101+6th+Ave,+New+York,+NY+10013/data=!4m2!3m1!1s0x89c2598b676bfc63:0x14e37d2e09e91af5?sa=X&ved=0CCUQ8gEwAWoVChMIgeqW-7HwxgIVxTY-Ch3WOQOA">New York, NY</a></p>
             <p><i class="fa fa-mortar-board fa-fw"></i><span class="icon-spacer"></span><a href="http://www.brown.edu">Brown University</a>, 2012
           </div>
+
+          <hr />
+
+          <div class="social-icons-area">
+            <a href="http://www.twitter.com/slobatch" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="http://instagram.com/slobatch" target="_blank"><i class="fa fa-instagram fa-3x"></i></a> <a href="http://www.linkedin.com/pub/serge-lobatch/2b/227/374/"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://www.facebook.com/slobatch" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="http://www.github.com/slobatch" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> <a href="https://trello.com/slobatch" target="_blank"><i class="fa fa-trello fa-3x"></i></a>
+          </div>
+
         </div>
       </div>
     </div>

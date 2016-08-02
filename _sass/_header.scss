@@ -51,17 +51,22 @@
 
 .nav{
   padding: 0px;
+  text-align: right;
+}
+
+.navbar-nav{
+  margin: 0;
 }
 
 .nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
+  color: $text-color;
+  font-size: 20px;
+  font-weight: normal;
   padding: 25px 10px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
-.nav ul {
+.navbar-nav ul {
   margin: 0px;
 }
 
@@ -69,13 +74,16 @@
   display: inline;
   padding: 0px;
   margin: 0px;
+  font-family: 'Roboto Slab', serif;
 }
 
-.active a{
-  background-color: #F5F5F5;
+
+.nav > li > a:hover{
+  background-color: $band-color;
   color: black;
 }
 
-.nav a:hover{
+.nav > li > a:focus{
+  background-color: $band-color;
   color: black;
 }
