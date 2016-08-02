@@ -1,0 +1,110 @@
+/* Homepage Styles */
+/* ----------------------------------------------------------*/
+
+.main-back{
+  background-color: #F3C9BF;
+}
+
+.main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.headshot-little {
+  margin-top: -70px;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.headshot-big {
+  padding-top: 20px;
+}
+
+.main-text-box {
+  background-color: #F3C9BF;
+}
+
+.main-text-box{
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.main-text-box h1 {
+  color: #333333;
+  font-size: 50px;
+  letter-spacing: -2px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+.main-text-box h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: thin;
+  font-size: 36px;
+  color: #333333;
+
+}
+
+.main-text-box h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #333333;
+  padding-top: 30px;
+  letter-spacing: 0.2px
+}
+
+.main-text-box p{
+  font-family: 'Lato',sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333333;
+  padding-top: 10px;
+  letter-spacing: 0.2px;
+}
+
+.main-text-box-content {
+  padding: 5px;
+}
+
+.main-text-box hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+
+}
+
+.social-icons-area a{
+  color: black;
+}
+
+.social-icons-area a:hover{
+  color: #428bca;
+}
+
+.social-icons-area {
+  margin-bottom: 3px;
+}
+
+.loc-edu-icons-area p {
+  font-size: 14px;
+}
+
+.loc-edu-icons-area i {
+  font-size: 16px;
+}
+
+.loc-edu-icons-area .icon-spacer {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .headshot-little {
+    display: none;
+  }
+}

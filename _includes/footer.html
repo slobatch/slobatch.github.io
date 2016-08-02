@@ -1,38 +1,14 @@
-<footer class="site-footer">
+<footer class="footer">
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+  <div class="container">
+    <div class="row footer-row">
+      <div class="col-sm-8 col-sm-offset-1 col-lg-6 col-lg-offset-2 ">
+        <p>Carelessly made using <a href="http://www.getbootstrap.com">Bootstrap</a> and <a href="http://jekyllrb.com/">Jekyll</a>. Proudly hosted on <a href="http://pages.github.com">Github Pages</a>.
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="col-sm-2">
+        <p>&copy;&nbsp;2016&nbsp;Serge&nbsp;Lobatch</p>
       </div>
     </div>
-
   </div>
 
 </footer>
