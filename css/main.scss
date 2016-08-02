@@ -18,7 +18,7 @@
 
 
 // Color Variables
-$bg-color: #F3C9BF !default;
+$bg-color: #fff !default;
 $flag-color: #FE6860 !default;
 $band-color: #D9BBAE !default;
 $flag-band-color: #FE8A71 !default;
@@ -48,6 +48,7 @@ html, body {
   margin:0;
   padding:0;
   height:100%;
+  font-family: 'Roboto Slab', serif;
 }
 
 .wrapper {
