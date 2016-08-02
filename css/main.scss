@@ -42,3 +42,14 @@ $flag-band-color: #FE8A71 !default;
 body {
   background-color: $bg-color;
 }
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.wrapper {
+   min-height:100%;
+   position:relative;
+}
