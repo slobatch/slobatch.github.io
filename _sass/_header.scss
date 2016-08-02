@@ -1,33 +1,32 @@
 /* Site header */
 
 .flag-bottom {
-  fill: $bg-color;
+  fill: $flag-color;
 }
 
 
 .brand-box-lower{
-  background-color: $flag-color;
-  height: 40px;
+  background-color: $bg-color;
+  height: 20px;
   padding: 0;
 }
 
 .brand-box-upper{
   background-color: $flag-color;
-  border-bottom: 10px solid $flag-band-color;
+  border-bottom: 10px solid $flag-color;
   margin-bottom:-10px;
 }
 
 
 .navbar {
   margin-bottom: 0;
-  background-color: $bg-color;
   border-radius: 0;
   border-width: 0;
   // border-width: 0;
 }
 
 .h-line{
-  border-bottom: 10px solid $band-color;
+  // border-bottom: 10px solid $band-color;
 }
 
 .navbar-brand{
@@ -79,11 +78,11 @@
 
 
 .nav > li > a:hover{
-  background-color: $band-color;
-  color: black;
+  background-color: $flag-color;
+  color: white;
 }
 
 .nav > li > a:focus{
-  background-color: $band-color;
-  color: black;
+  background-color: $flag-color;
+  color: white;
 }

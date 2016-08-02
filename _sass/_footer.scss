@@ -12,7 +12,7 @@
 
 
 .footer-border{
-  border-top: 3px solid $band-color;
+  border-top: 3px solid $flag-color;
   padding: 20px 0 0 0;
 }
 
@@ -59,11 +59,15 @@
   color: #828282;
 }
 
-.github-icon-svg,
-.twitter-icon-svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  top: 3px;
+.social-icons-area a{
+  color: black;
+  padding: 0 5px 0 5px;
+}
+
+.social-icons-area a:hover{
+  color: #428bca;
+}
+
+.social-icons-area {
+  margin-bottom: 10px;
 }
