@@ -17,27 +17,26 @@
 // }
 
 
+// Color Variables
+$bg-color: #F3C9BF !default;
+$flag-color: #FE6860 !default;
+$band-color: #D9BBAE !default;
+$flag-band-color: #FE8A71 !default;
+// $pink :            lighten($gray-base, 13.5%) !default; // #222
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        'bootstrap',
-        'header',
-        'footer',
-        'homepage',
-        'archive',
-        'post',
-        'syntax',
-        'media',
-        'page-content',
-;
+@import 'bootstrap';
+@import 'header';
+@import 'footer';
+@import 'homepage';
+@import 'archive';
+@import 'post';
+@import 'syntax';
+@import 'media';
+@import 'page-content';
 
-// Color Variables
 
-$bg-color:              #F3C9BF !default;
-$flag-color:            #FE6860 !default;
-$band-color:             #D9BBAE !default;
-$flag-band-color:       #FE8A71 !default;
-// $pink :            lighten($gray-base, 13.5%) !default; // #222
 
 body {
   background-color: $bg-color;
