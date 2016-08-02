@@ -1,33 +1,33 @@
 /* Site header */
 
 .flag-bottom {
-  fill: #F3C9BF;
+  fill: $bg-color;
 }
 
 
 .brand-box-lower{
-  background-color: #FE6860;
+  background-color: $flag-color;
   height: 40px;
   padding: 0;
 }
 
 .brand-box-upper{
-  background-color: #FE6860;
-  border-bottom: 10px solid #FE8A71;
+  background-color: $flag-color;
+  border-bottom: 10px solid $flag-band-color;
   margin-bottom:-10px;
 }
 
 
 .navbar {
   margin-bottom: 0;
-  background-color: #F3C9BF;
+  background-color: $bg-color;
   border-radius: 0;
   border-width: 0;
   // border-width: 0;
 }
 
 .h-line{
-  border-bottom: 10px solid #D9BBAE;
+  border-bottom: 10px solid $band-color;
 }
 
 .navbar-brand{
