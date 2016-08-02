@@ -1,0 +1,81 @@
+/* Site header */
+
+.flag-bottom {
+  fill: #F3C9BF;
+}
+
+
+.brand-box-lower{
+  background-color: #FE6860;
+  height: 40px;
+  padding: 0;
+}
+
+.brand-box-upper{
+  background-color: #FE6860;
+  border-bottom: 10px solid #FE8A71;
+  margin-bottom:-10px;
+}
+
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #F3C9BF;
+  border-radius: 0;
+  border-width: 0;
+  // border-width: 0;
+}
+
+.h-line{
+  border-bottom: 10px solid #D9BBAE;
+}
+
+.navbar-brand{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-transform: none;
+  color: white;
+  width: 100%;
+  margin-left: 0 !important;
+}
+
+.navbar-brand:visited{
+  color: white;
+  height: 10px;
+}
+
+.brand-under{
+  background-color: purple;
+
+}
+
+.nav{
+  padding: 0px;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 25px 10px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.active a{
+  background-color: #F5F5F5;
+  color: black;
+}
+
+.nav a:hover{
+  color: black;
+}

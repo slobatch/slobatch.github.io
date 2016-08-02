@@ -1,24 +1,39 @@
 ---
-layout: default
+layout: home
+active_nav: home
 ---
 
-<div class="home">
+<div class="main-back">
+  <div class="container">
+    <div class="main row">
+      <div class="col-sm-4 col-sm-offset-1 hidden-xs">
+        <img class="img-responsive img-circle headshot-big" src="images/serge_lobatch_full.png">
+      </div>
+      <div class="main-text-box col-sm-6">
+        <div class="main-text-box-content">
+          <h1>Serge Lobatch</h1>
+          <img class="img-circle headshot-little pull-right" src="images/serge_lobatch_full.png">
+          <h2>Product Manager &amp;<br /> Digital Tinkerer</h2>
+          <h3>I'm an Associate Product Manager at <a href="http://www.digitalocean.com">DigitalOcean</a>.</h3>
+          <p>I was born in Minsk, raised in Brooklyn, and educated in Providence, Rhode Island. Armed with a degree in Cognitive Science, years of experience getting all kinds of projects off the ground, and a modest arsenal of product management skills, I'm finding ways to help grow the internet that helped raise me.
+          </p>
 
-  <h1 class="page-heading">Posts</h1>
+          <p>I enjoy scuba-diving, carpentry, barbecue, and music production. I make <a href="http://etchandmallet.etsy.com" target="_blank">and sell</a> things out of old bottles.</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <p>I have a scissor-lift operator's license.</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          <div class="loc-edu-icons-area">
+            <p><i class="fa fa-map-marker fa-fw"></i><span class="icon-spacer"></span><a href="https://www.google.com/maps/place/101+6th+Ave,+New+York,+NY+10013/data=!4m2!3m1!1s0x89c2598b676bfc63:0x14e37d2e09e91af5?sa=X&ved=0CCUQ8gEwAWoVChMIgeqW-7HwxgIVxTY-Ch3WOQOA">New York, NY</a></p>
+            <p><i class="fa fa-mortar-board fa-fw"></i><span class="icon-spacer"></span><a href="http://www.brown.edu">Brown University</a>, 2012
+          </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  <p class="rss-subscribe">fork me on <a href="https://gitlab.com/pages/jekyll-branched">GitLab</a></p>
+          <hr />
 
-</div>
+          <div class="social-icons-area">
+            <a href="http://www.twitter.com/slobatch" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="http://instagram.com/slobatch" target="_blank"><i class="fa fa-instagram fa-3x"></i></a> <a href="http://www.linkedin.com/pub/serge-lobatch/2b/227/374/"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://www.facebook.com/slobatch" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="http://www.github.com/slobatch" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> <a href="https://trello.com/slobatch" target="_blank"><i class="fa fa-trello fa-3x"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
