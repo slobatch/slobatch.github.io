@@ -16,3 +16,5 @@ permalink: /slog/:year/:i_month/:i_day/:title
 # Sass directory
 sass:
   sass_dir: _sass
+
+exclude: [vendor]
