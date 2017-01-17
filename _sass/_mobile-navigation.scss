@@ -1,0 +1,31 @@
+.navbar-toggle {
+  .icon-bar{
+    background-color: $flag-color;
+  }
+}
+
+.navbar-collapse{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.mobile-nav {
+  li {
+    text-align: center;
+  }
+
+  a {
+    background-color: $flag-color;
+    color: white;
+  }
+
+  li > a:hover{
+    background-color: white;
+    color: $flag-color;
+  }
+
+  li > a:focus{
+    background-color: white;
+    color: $flag-color;
+  }
+}
