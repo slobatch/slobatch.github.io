@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 email: serge@hireserge.com
-description: Learn about Serge Lobatch, a Product Manager, based in NYC.
+description: Professional site of Serge Lobatch, a Product Manager based in Seattle, WA.
 baseurl: ''
 url: ''
 markdown: kramdown
