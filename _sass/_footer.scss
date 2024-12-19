@@ -3,11 +3,19 @@
 .footer {
   font-family: 'Roboto slab',serif;
   font-weight: 300;
-  position:absolute;
+  position:sticky;
   bottom:0;
   width:100%;
   height:100px;   /* Height of the footer */
   text-align: center;
+  background-color: white;
+  @media (min-height: 768px) {
+    position: absolute;
+    top: 886px;
+    // max-height: 780px;
+  }
+ 
+
 }
 
 
@@ -60,7 +68,7 @@
 }
 
 .social-icons-area a{
-  color: black;
+  color: #333333;
   padding: 0 5px 0 5px;
 }
 

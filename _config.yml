@@ -1,20 +1,27 @@
 ---
-title: hireserge
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+title: "Serge Lobatch | Product Manager | TikTok, ex-AWS, ex-Amazon, ex-DigitalOcean"
+timezone: "America/Los_Angeles"
 email: serge@hireserge.com
-description: Professional site of Serge Lobatch, a Product Manager based in Seattle, WA.
+description: "Experienced Product Manager in Seattle. Currently at TikTok, formerly at AWS, Amazon, and DigitalOcean, with expertise in product strategy, UX, and Agile development."
+keywords: "Serge Lobatch, Product Manager, Seattle, TikTok, Amazon, AWS, DigitalOcean, Product Strategy, UX, Agile Development"
+url: 'https://hireserge.com'
 baseurl: ''
-url: ''
-markdown: kramdown
-permalink: "/slog/:year/:i_month/:i_day/:title"
 sass:
   sass_dir: _sass
+# collections:
+#   posts:
+#     title: Posts
+#     output: true
+#   uploads:
+#     title: Uploads
+#     output: true
+# markdown: kramdown
+# permalink: "/slog/:year/:i_month/:i_day/:title"  
 exclude:
 - vendor
+- node_modules
+- Gemfile
+- Gemfile.lock
+- README.md
+- .env
+- .gitignore
